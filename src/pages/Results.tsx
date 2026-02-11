@@ -24,7 +24,6 @@ import {
 import apiService from '../services/api';
 import { useTaskStore } from '../context/TaskStore';
 import TaskGraph from '../components/TaskGraph';
-import { Task } from '../types';
 
 export default function Results() {
   const { jobId } = useParams<{ jobId: string }>();
